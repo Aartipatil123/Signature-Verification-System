@@ -74,8 +74,8 @@ contact_desc.pack(pady=10)
 
 # Contact Information
 contact_info = [
-    ("🏠 Address", "4671 Sugar Camp Road, Owatonna, MN 55060"),
-    ("📞 Phone", "571-457-2321"),
+    ("Address", "4671 Sugar Camp Road, Owatonna, MN 55060"),
+    ("Phone", "571-457-2321"),
     ("✉ Email", "ntamerrwael@mfano.ga"),
 ]
 
@@ -121,3 +121,4 @@ send_button.pack(pady=20, padx=20, ipadx=10, ipady=5, anchor="center")
 
 # Run the main loop
 root.mainloop()
+
