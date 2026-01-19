@@ -60,11 +60,7 @@ def login():
          result = c.fetchall()
 
          if result:
-            msg = ""
-            # self.logf.pack_forget()
-            # self.head['text'] = self.username.get() + '\n Loged In'
-            # msg = self.head['text']
-            #            self.head['pady'] = 150
+           
             print(msg)
             ms.showinfo("messege", "LogIn sucessfully")
             # ===========================================
@@ -77,13 +73,6 @@ def login():
          else:
            ms.showerror('Oops!', 'Username Or Password Did Not Found/Match.')
 
-#frame_alpr = tk.LabelFrame(root, text=" --About us-- ", width=550, height=500, bd=5, font=('times', 14, ' bold '),bg="#7CCD7C")
-#frame_alpr.grid(row=0, column=0, sticky='nw')
-#frame_alpr.place(x=550, y=200)
-
-# label_l2 = tk.Label(root, text="___ Login Form ___",font=("Times New Roman", 30, 'bold'),
-#                     background="#EEEE00", fg="black", width=67, height=3)
-# label_l2.place(x=0, y=90)
 
 
 #bg1_icon=ImageTk.PhotoImage(file="b4.jpg")
@@ -125,4 +114,5 @@ def window():
   
 
 root.mainloop()
+
 
