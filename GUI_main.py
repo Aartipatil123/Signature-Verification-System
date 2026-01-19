@@ -11,7 +11,7 @@ root.geometry("%dx%d+0+0" % (w, h))
 root.title("Documentation Signature Detection")
 
 # Background Image
-image2 = Image.open('s7.jpeg')
+image2 = Image.open('assets/s7.jpeg')
 image2 = image2.resize((w, h), Image.LANCZOS)
 background_image = ImageTk.PhotoImage(image2)
 background_label = tk.Label(root, image=background_image)
@@ -82,3 +82,4 @@ contact_button.pack(side="right", padx=40, pady=5)
 
 # Run the application
 root.mainloop()
+
