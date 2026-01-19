@@ -39,6 +39,18 @@ This project automates the process using **Deep Learning**, improving accuracy a
 
 ---
 
+## How to Run the Project
+1. Clone the repository  
+   git clone https://github.com/Aartipatil123/Signature-Verification-System.git
+
+2. Install dependencies  
+   pip install tensorflow keras numpy pandas opencv-python
+
+3. Run the application  
+   python GUI_main.py
+
+---
+
 ## Project Structure
 Signature-Verification-System/
 │
