@@ -282,23 +282,11 @@ def window():
     root.destroy()
 
 
-
-
 button1 = tk.Button(frame_display, text=" Select Image ", command=openimage,width=12, height=1, font=('times', 15, ' bold '),bg="yellow4",fg="white")
 button1.place(x=10, y=20)
 
 button2 = tk.Button(frame_display, text="Image Process", command=convert_grey, width=12, height=1, font=('times', 15, ' bold '),bg="yellow4",fg="white")
 button2.place(x=10, y=100)
-
-#button3 = tk.Button(frame_display, text="Train SVM Model", command=CL_SVM, width=12, height=1, font=('times', 15, ' bold '),bg="yellow4",fg="white")
-#button3.place(x=400, y=20)
-#
-#button4 = tk.Button(frame_display, text="Train CNN Model", command=CL_CNN,width=12, height=1,bg="yellow4",fg="white", font=('times', 15, ' bold '))
-#button4.place(x=5, y=140)
-#
-#
-#button5 = tk.Button(frame_display, text="SVM Prediction", command=testSVM_model,width=12, height=1, font=('times', 15, ' bold '),bg="yellow4",fg="white")
-#button5.place(x=800, y=20)
 
 button6 = tk.Button(frame_display, text="CNN Prediction", command=test_model,width=12, height=1, font=('times', 15, ' bold '),bg="yellow4",fg="white")
 button6.place(x=10, y=180)
@@ -310,5 +298,6 @@ exit.place(x=10, y=260)
 
 
 root.mainloop()
+
 
 
