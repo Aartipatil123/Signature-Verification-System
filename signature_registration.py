@@ -211,8 +211,7 @@ t10.place(x=750, y=550)
 
 btn = tk.Button(root, text="Register", bg="#28A745",font=("",20),fg="white", width=9, height=1, command=insert)
 btn.place(x=700, y=620)
-# tologin=tk.Button(window , text="Go To Login", bg ="dark green", fg = "white", width=15, height=2, command=login)
-# tologin.place(x=330, y=600)
 
 root.mainloop()
+
 
