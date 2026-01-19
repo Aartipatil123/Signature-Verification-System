@@ -151,7 +151,7 @@ def insert():
 # def login():
 
 #####For background Image
-image2 = Image.open('s10.jpg')
+image2 = Image.open('assets/s10.jpg')
 image2 = image2.resize((1550, 800), Image.LANCZOS)
 
 background_image = ImageTk.PhotoImage(image2)
@@ -229,4 +229,5 @@ btn = tk.Button(root, text="Register", bg="#28A745",font=("",20),fg="white", wid
 btn.place(x=700, y=620)
 # tologin=tk.Button(window , text="Go To Login", bg ="dark green", fg = "white", width=15, height=2, command=login)
 # tologin.place(x=330, y=600)
+
 root.mainloop()
