@@ -35,7 +35,7 @@ root.title("Signature Detection System")
 
 #++++++++++++++++++++++++++++++++++++++++++++
 #####For background Image
-image2 =Image.open('C:/Users/91749/Desktop/Tushar SCT/Extracted File/signature detection/final code/assets/Signature.jpg')
+image2 =Image.open('C:/Users/91749/Desktop/Tushar SCT/Extracted File/signature detection/assets/Signature.jpg')
 image2 =image2.resize((w,h), Image.LANCZOS)
 
 background_image=ImageTk.PhotoImage(image2)
@@ -310,4 +310,5 @@ exit.place(x=10, y=260)
 
 
 root.mainloop()
+
 
