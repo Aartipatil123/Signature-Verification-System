@@ -49,8 +49,8 @@ Signature-Verification-System/
 ├── CNN_model.h5 # Trained CNN model
 ├── clf_SVM.pkl # ML classifier
 ├── evaluation.db # Database
-├── signature login.py # Login module
-├── signature registration.py # Registration module
+├── signature_login.py # Login module
+├── signature_registration.py # Registration module
 └── README.md
 
 
