@@ -20,10 +20,6 @@ w, h = root.winfo_screenwidth(), root.winfo_screenheight()
 root.geometry("%dx%d+0+0" % (w, h))
 root.title("registration")
 
-#window = tk.Tk()
-#Window.geometry("700x700+200+50")
-#window.title("REGISTRATION FORM")
-#window.configure(background="#85929e")
 
 Fullname = tk.StringVar()
 address = tk.StringVar()
@@ -143,16 +139,6 @@ def insert():
 
 #####################################################################################################################################################
 
-#from subprocess import call
-#call(["python", "lecture_login.py"])
-
-
-# assign and define variable
-# def login():
-
-#####For background Image
-image2 = Image.open('assets/s10.jpg')
-image2 = image2.resize((1550, 800), Image.LANCZOS)
 
 background_image = ImageTk.PhotoImage(image2)
 
@@ -167,8 +153,6 @@ Login_frame = tk.LabelFrame(root, text="Registration Form", width=450, height=55
 Login_frame.grid(row=0, column=0, sticky='nw')
 Login_frame.place(x=550, y=50)
 
-#l1 = tk.Label(window, text="Registration Form", font=("Times new roman", 30, "bold"), bg="black", fg="white")
-#1.place(x=190, y=50)
 
 # that is for label1 registration
 
@@ -231,3 +215,4 @@ btn.place(x=700, y=620)
 # tologin.place(x=330, y=600)
 
 root.mainloop()
+
