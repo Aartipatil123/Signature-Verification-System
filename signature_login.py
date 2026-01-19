@@ -123,21 +123,6 @@ btn_reg.grid(row=3,column=0,pady=10)
 def window():
   root.destroy()
   
-  
-
-
-
-# button1 = tk.Button(frame_alpr, text="Login", command=log, width=14, height=1,font=('times', 20, ' bold '), bg="Black", fg="white")
-# button1.place(x=150, y=110)
-
-# button2 = tk.Button(frame_alpr, text="Register",command=reg,width=14, height=1,font=('times', 20, ' bold '), bg="black", fg="white")
-# button2.place(x=150, y=200)
-
-# button3 = tk.Button(frame_alpr, text="Exit",command=window,width=14, height=1,font=('times', 20, ' bold '), bg="red", fg="white")
-# button3.place(x=150, y=300)
-
-
-
-
 
 root.mainloop()
+
