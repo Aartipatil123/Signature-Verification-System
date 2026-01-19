@@ -26,7 +26,7 @@ password = tk.StringVar()
 # ++++++++++++++++++++++++++++++++++++++++++++
 #For background Image
 
-image2 = Image.open("s4.jpg")
+image2 = Image.open("assets/s4.jpg")
 image2 = image2.resize((w,h), Image.LANCZOS)
 
 background_image = ImageTk.PhotoImage(image2)
@@ -135,6 +135,7 @@ def window():
 
 # button3 = tk.Button(frame_alpr, text="Exit",command=window,width=14, height=1,font=('times', 20, ' bold '), bg="red", fg="white")
 # button3.place(x=150, y=300)
+
 
 
 
