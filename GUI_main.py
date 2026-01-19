@@ -60,26 +60,7 @@ contact_button = tk.Button(navbar_frame, text="Contact Us", command=contact, fon
                            bg="#28A745", fg="black", width=20)
 contact_button.pack(side="right", padx=40, pady=5)
 
-# Main Content Frame
-#frame_alpr = tk.LabelFrame(root, text=" --​🇱​​🇴​​🇬​​🇮​​🇳​ & ​🇷​​🇪​​🇬​​🇮​​🇸​​🇹​​🇪​​🇷​--", 
-#                           width=500, height=300, bd=0, font=('times', 20, 'bold'), bg="black", fg="orange")
-#frame_alpr.place(x=60, y=300)
-#button1 = tk.Button(frame_alpr, text="Login", command=log, width=15, height=1,
- #                   font=('times', 14, 'bold'), bg="#0d73d1", fg="black")
-#button1.pack(pady=20)
 
-#utton2 = tk.Button(frame_alpr, text="Registration", command=reg, width=15, height=1,
- #                   font=('times', 14, 'bold'), bg="#0d73d1", fg="black")
-#button2.pack(pady=10)
-
-#button3 = tk.Button(frame_alpr, text="About", command=about, width=15, height=1,
-#                    font=('times', 14, 'bold'), bg="#0d73d1", fg="black")
-#button3.pack(pady=20)
-
-#button4 = tk.Button(frame_alpr, text="Contact", command=contact, width=15, height=1,
- #                   font=('times', 14, 'bold'), bg="#0d73d1", fg="black")
-#button4.pack(pady=20)
-
-# Run the application
 root.mainloop()
+
 
