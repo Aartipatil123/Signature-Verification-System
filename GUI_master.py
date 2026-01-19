@@ -158,54 +158,6 @@ def test_model_proc(fn):
 
     return label
 
-
-
-# def test_model_proc(fn):
-#     from keras.preprocessing.image import load_img
-#     from keras.preprocessing.image import img_to_array
-#     from keras.models import load_model
-
-#     # load and prepare the image
-#     def load_image(filename):
-#         # load the image
-#         img = load_img(filename, target_size=(32, 32))
-#         # convert to array
-#         img = img_to_array(img)
-#         # reshape into a single sample with 3 channels
-#         img = img.reshape(1, 32, 32, 3)
-#         # center pixel data
-#         img = img.astype('float32')
-# #        img = img - [123.68, 116.779, 103.939]
-#         return img
-    
-#     # load an image and predict the class
-#     def run_example():
-#         # load the image
-#         img = load_image(fn)
-#         # load model
-#         model = load_model(basepath + '/CNN_model.h5')
-#         # predict the class
-#         result = model.predict(img)
-#         print(result)
-#         return (result.argmax(axis=1))
-#     # entry point, run the example
-    
-#     preds=run_example()
-
-    
-#     if preds==1:
-#         label="Signature is Real !!!"
-#     else:
-#         label="Signature is Forged !!!"
-
-
-#     return label
-
-# # def clear_img():
-    
-# #     img11 = tk.Label(frame_display, background='lightblue4',width=160,height=120)
-# #     img11.place(x=0, y=0)
-
 def update_label(str_T):
     #clear_img()
     result_label = tk.Label(root, text=str_T, width=40, font=("bold", 25), bg='bisque2', fg='black')
@@ -353,6 +305,7 @@ button6.place(x=10, y=180)
 
 exit = tk.Button(frame_display, text="Exit", command=window, width=10, height=1, font=('times', 15, ' bold '),bg="red",fg="white")
 exit.place(x=10, y=260)
+
 
 
 
