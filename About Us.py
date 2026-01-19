@@ -28,7 +28,7 @@ Label(content_frame, text=description, font=("Arial", 12), bg="white", fg="#555"
 
 # Optional Image
 try:
-    img = PhotoImage(file="teamwork_image.jpg")  # Image in the same folder
+    img = PhotoImage(file="assets/teamwork_image.jpg")  # Image in the same folder
     Label(content_frame, image=img, bg="white").pack(pady=10)
 except:
     Label(content_frame, text="[Image Placeholder]", bg="white", fg="gray", font=("Arial", 12, "italic")).pack(pady=10)
@@ -44,3 +44,4 @@ Label(footer, text="© 2024 Our Company | All Rights Reserved", bg="#4CAF50", fg
 
 # Run the main loop
 root.mainloop()
+
